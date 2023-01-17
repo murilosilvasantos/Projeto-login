@@ -42,7 +42,7 @@ main {
     transition-timing-function: ease;
 }
 
-#imagem {
+div#imagem {
     display: block;
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
     background-size: cover;
@@ -50,7 +50,17 @@ main {
     height: 200px;
 }
 
-#formulario {
+div#formulario {
     display: block;
-    padding: 10px;
+    padding: 7px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
